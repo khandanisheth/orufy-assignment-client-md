@@ -1,0 +1,59 @@
+.home-wrapper {
+    background: #f3f4f6;
+    height: 100vh;
+}
+
+.content-area {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.empty-box {
+    height: calc(100vh - 180px);
+    text-align: center;
+}
+
+.sidebar {
+    width: 240px;
+    background: #111827;
+    color: white;
+    height: 100vh;
+}
+
+.prod-main-img {
+    object-fit: contain;
+}
+
+.card-body .d-flex {
+    margin-bottom: 2px;
+}
+
+
+.swiper-pagination-bullet {
+    background: #bbb;
+    opacity: .7;
+}
+
+.swiper-pagination-bullet-active {
+    background: #2663ff;
+}
+
+
+/* SideBAr */
+
+.nav-link:hover {
+    background: #1e293b;
+    color: #fff !important;
+}
+
+.nav-link.active {
+    background: #1e293b;
+    color: #fff !important;
+}
+
+
+/* Topbar */
+.dropdown-item:hover {
+    background: #f3f4f6;
+}
+

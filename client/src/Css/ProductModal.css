@@ -1,0 +1,142 @@
+.modal-backdrop {
+  /* position: fixed; */
+  inset: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,0.25);
+  backdrop-filter: blur(2px);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;  /* push down */
+  padding-top: 40px;
+  z-index: 999;
+}.modal-container::-webkit-scrollbar {
+  width: 6px;
+}
+.modal-container::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 10px;
+}
+
+
+.modal-container {
+  background: #ffffff;
+  width: 600px;
+  max-width: 90%;
+  max-height: 90vh;        /* ❗ screen ke 90% tak */
+  overflow-y: auto;        /* ❗ scroll enable */
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.15);
+}
+
+
+
+
+/* Title */
+h5 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Labels */
+label {
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  color: #374151;
+}
+
+/* Inputs */
+.form-control {
+  font-size: 14px;
+  padding: 10px 12px;
+  border-radius: 6px;
+}
+
+/* Upload Box */
+.upload-box {
+  border: 1.5px dashed #d1d5db;
+  border-radius: 10px;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.upload-inner {
+  text-align: center;
+}
+
+.browse-text {
+  margin-top: 3px;
+  font-weight: 600;
+  font-size: 13px;
+  color: #1f4dff;
+}
+
+.preview-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+  object-fit: cover;
+  border: 1px solid #d1d5db;
+}
+
+/* Create */
+.create-btn {
+  background: #1f4dff !important;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 10px;
+}
+
+.img-preview {
+  position: relative;
+}
+
+.img-preview img {
+  width: 70px;
+  height: 70px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 1px solid #d1d5db;
+}
+
+.remove-btn {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 3px 6px;
+  font-size: 14px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.25);
+}
+
+.add-more-label {
+  font-size: 12px;
+  cursor: pointer;
+  color: #1f4dff;
+  font-weight: 500;
+}
+.error-border {
+  border: 1.8px solid #e63946 !important;
+  border-radius: 6px;
+}
+
+.error-text {
+  color: #e63946;
+  font-size: 12px;
+  margin-bottom: 6px;
+}

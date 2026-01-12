@@ -1,0 +1,54 @@
+/* Left side full background */
+.login-left {
+    background-image: url("../assets/loginleft.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Logo fixed on top-left */
+.login-logo {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    width: 130px;
+    z-index: 5;
+}
+
+/* Runner card */
+.content-box {
+    width: 300px;
+    z-index: 10;
+}
+
+.runner-img {
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Right part styling */
+.lgline {
+    color: rgba(7, 16, 116, 1);
+}
+
+.auth {
+    background-color: rgba(7, 16, 116, 1);
+    color: white;
+}
+
+.lastitem {
+    margin-top: 120px;
+}
+.form-control.text-center {
+  font-size: 18px;
+  padding: 8px;
+}
+.form-control:focus {
+  box-shadow: none !important;
+  border-color: #4f46e5 !important; /* Your blue */
+}
+.btn:hover{
+    background-color: rgb(15, 28, 170);
+    color: aliceblue !important;
+}
